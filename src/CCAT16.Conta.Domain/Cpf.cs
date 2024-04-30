@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CCAT16.Conta.Domain
+namespace CCAT16.Conta.Dominio
 {
     public class Cpf
     {

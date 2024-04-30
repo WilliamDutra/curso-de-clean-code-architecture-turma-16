@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CCAT16.Corrida.Domain
+namespace CCAT16.Corrida.Dominio
 {
     public class Coordenada
     {

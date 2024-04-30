@@ -1,4 +1,5 @@
 ﻿using System;
+using Entidade = CCAT16.Conta.Dominio;
 
 namespace CCAT16.Testes.Dominio
 {
@@ -7,7 +8,7 @@ namespace CCAT16.Testes.Dominio
         [Fact(DisplayName = "Deve criar uma conta válida")]
         public void Deve_criar_uma_conta_valida()
         {
-            var novaConta = Conta.Domain.Conta.Criar("Jonh Doe", "jonhdoe@gmail.com", "12345678910", false, true, "AAABC1234");
+            var novaConta = Entidade.Conta.Criar("Jonh Doe", "jonhdoe@gmail.com", "12345678910", false, true, "AAABC1234");
             Assert.NotEqual(null, novaConta);
         }
 

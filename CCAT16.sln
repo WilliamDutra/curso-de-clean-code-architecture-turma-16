@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34202.233
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CCAT16.Conta.Dominio", "src\CCAT16.Conta.Domain\CCAT16.Conta.Dominio.csproj", "{8F6EF085-13CE-4767-B4FF-058CF51F6E8C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CCAT16.Conta.Dominio", "src\CCAT16.Conta.Domain\CCAT16.Conta.Dominio.csproj", "{8F6EF085-13CE-4767-B4FF-058CF51F6E8C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CCAT16.Corrida.Dominio", "src\CCAT16.Corrida.Domain\CCAT16.Corrida.Dominio.csproj", "{060306C4-D8D5-4ED2-895D-9A3F45A79B4A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CCAT16.Corrida.Dominio", "src\CCAT16.Corrida.Domain\CCAT16.Corrida.Dominio.csproj", "{060306C4-D8D5-4ED2-895D-9A3F45A79B4A}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CCAT16.Testes", "testes\CCAT16.Testes\CCAT16.Testes.csproj", "{E9BB85F4-BB33-4263-845E-8EFF16706471}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CCAT16.Data", "src\CCAT16.Data\CCAT16.Data.csproj", "{28E18FC3-958A-4BC2-A5E5-EE4C42064A86}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{E9BB85F4-BB33-4263-845E-8EFF16706471}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E9BB85F4-BB33-4263-845E-8EFF16706471}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E9BB85F4-BB33-4263-845E-8EFF16706471}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28E18FC3-958A-4BC2-A5E5-EE4C42064A86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28E18FC3-958A-4BC2-A5E5-EE4C42064A86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28E18FC3-958A-4BC2-A5E5-EE4C42064A86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28E18FC3-958A-4BC2-A5E5-EE4C42064A86}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

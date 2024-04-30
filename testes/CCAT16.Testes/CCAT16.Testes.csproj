@@ -23,7 +23,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\src\CCAT16.Conta.Domain\CCAT16.Conta.Dominio.csproj" />
+    <ProjectReference Include="..\..\src\CCAT16.Conta.Domain\CCAT16.Conta.Dominio.csproj" />
+    <ProjectReference Include="..\..\src\CCAT16.Data\CCAT16.Data.csproj" />
   </ItemGroup>
+
 
 </Project>

@@ -1,0 +1,26 @@
+version: "3.8"
+services:
+  banco:
+    container_name: "ccat16-database"
+    image: "postgres"
+    restart: always
+    environment:
+      POSTGRES_USER: ccat16
+      POSTGRES_PASSWORD: 123456789
+    ports:
+        - "5432:5432"
+    networks:
+      - ccat16-network
+
+  adminer:
+    container_name: "adminer"
+    image: "adminer"
+    restart: always
+    ports:
+      - 5000:8080
+    networks:
+      - ccat16-network
+
+networks:
+  ccat16-network:
+    driver: bridge

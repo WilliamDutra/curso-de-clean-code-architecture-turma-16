@@ -1,16 +1,15 @@
 ﻿using System;
-using System.Text.RegularExpressions;
 
-namespace CCAT16.Conta.Domain
+namespace CCAT16.Conta.Dominio
 {
     public class PlacaCarro
     {
-        public string Placa { get; private set; }
+        public string Numeracao { get; private set; }
 
-        public PlacaCarro(string placa)
+        public PlacaCarro(string numeracao)
         {
             // TODO: cria validação da placa
-            Placa = placa;
+            Numeracao = numeracao;
         }
     }
 }
